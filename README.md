@@ -22,3 +22,16 @@ src/
   services/      MensagemService.js
   repositories/  MensagemRepository.js
 ```
+
+## Como rodar
+
+```
+npm install
+npx expo start
+```
+
+Abra o app **Expo Go** no celular e leia o QR code.
+
+## Integrantes
+
+- Guilherme Cardoso
