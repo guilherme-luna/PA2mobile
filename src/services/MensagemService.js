@@ -2,8 +2,8 @@ import MensagemRepository from '../repositories/MensagemRepository';
 
 // Regras de negócio. As telas acessam os dados apenas por aqui.
 class MensagemService {
-  constructor(repository) {
-    this.repository = repository;
+  constructor() {
+    this.repository = new MensagemRepository();
   }
 
   getMensagens(contatoId) {
@@ -28,4 +28,4 @@ class MensagemService {
 }
 
 // Instância única, compartilhada entre as telas.
-export default new MensagemService(new MensagemRepository());
+export default new MensagemService();

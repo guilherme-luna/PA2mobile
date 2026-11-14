@@ -15,7 +15,7 @@ export default function HomeScreen({ navigation }) {
       renderItem={({ item }) => (
         <TouchableOpacity
           style={styles.contato}
-          onPress={() => navigation.navigate('Chat', { contatoId: item.id, nome: item.nome })}
+          onPress={() => navigation.navigate('ChatScreen', { contatoId: item.id, nome: item.nome })}
         >
           <Text style={styles.nome}>{item.nome}</Text>
         </TouchableOpacity>
