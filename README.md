@@ -34,4 +34,4 @@ Abra o app **Expo Go** no celular e leia o QR code.
 
 ## Integrantes
 
-- Guilherme Cardoso
+- Guilherme Luna
